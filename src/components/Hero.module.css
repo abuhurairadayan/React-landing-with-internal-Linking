@@ -1,0 +1,35 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://picsum.photos/1600/800) no-repeat center / cover;
+    color: white;
+    padding: 80px 20px;
+}
+
+.heroH1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.heroPara{
+    font: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.heroBtn{
+    background-color: #ff9800;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.heroBtn:hover{
+    background: #c07402;
+}

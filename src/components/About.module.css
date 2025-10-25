@@ -1,0 +1,16 @@
+.aboutSection{
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.aboutTitle{
+    margin-top: 2px;
+    font-size: 2rem;
+}
+
+.aboutPara{
+    margin-top: 20px;
+}
+
